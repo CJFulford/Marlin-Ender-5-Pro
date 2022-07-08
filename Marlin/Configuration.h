@@ -145,7 +145,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "The Printinator 5000"
+#define CUSTOM_MACHINE_NAME "The Printinator 5001"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -655,9 +655,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp  27.02
-    #define DEFAULT_Ki   2.11
-    #define DEFAULT_Kd  86.48
+    #define DEFAULT_Kp  25.77
+    #define DEFAULT_Ki   2.00
+    #define DEFAULT_Kd  82.98
   #endif
 #endif
 
