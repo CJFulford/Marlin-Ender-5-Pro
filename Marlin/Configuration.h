@@ -146,7 +146,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 // @section MACHINE_NAME
-#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.10"
+#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.11"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1364,7 +1364,7 @@
 #define Z_CLEARANCE_MULTI_PROBE     5 // Z Clearance between multiple probes
 //#define Z_AFTER_PROBING           5 // Z position after probing is done
 
-#define Z_PROBE_LOW_POINT          0 // Farthest distance below the trigger-point to go before stopping
+#define Z_PROBE_LOW_POINT          -2 // Farthest distance below the trigger-point to go before stopping
 
 // For M851 give a range for adjusting the Z probe offset
 #define Z_PROBE_OFFSET_RANGE_MIN -20
