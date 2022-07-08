@@ -146,7 +146,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 // @section MACHINE_NAME
-#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.7"
+#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.9"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -657,7 +657,7 @@
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
     #define DEFAULT_Kp  26.02
-    #define DEFAULT_Ki   2.05
+    #define DEFAULT_Ki   2.50
     #define DEFAULT_Kd  82.76
   #endif
 #endif
