@@ -146,7 +146,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 // @section MACHINE_NAME
-#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.9"
+#define CUSTOM_MACHINE_NAME "E5P - CFW: 1.10"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -642,7 +642,9 @@
 
 #define BANG_MAX 255     // Limits current to nozzle while in bang-bang mode; 255=full current
 #define PID_MAX BANG_MAX // Limits current to nozzle while PID is active (see PID_FUNCTIONAL_RANGE below); 255=full current
-#define PID_K1 0.95      // Smoothing factor within any PID loop
+
+// original = 0.95
+#define PID_K1 0.55      // Smoothing factor within any PID loop
 
 #if ENABLED(PIDTEMP)
   //#define PID_PARAMS_PER_HOTEND // Uses separate PID parameters for each extruder (useful for mismatched extruders)
