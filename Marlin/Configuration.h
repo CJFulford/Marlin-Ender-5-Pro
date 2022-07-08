@@ -145,7 +145,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-// @section MACHINE_NAME
+// ANCHOR MACHINE_NAME
 #define CUSTOM_MACHINE_NAME "E5P - CFW: 1.11"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
@@ -634,6 +634,7 @@
 //===========================================================================
 //============================= PID Settings ================================
 //===========================================================================
+// ANCHOR PID settings
 
 // Enable PIDTEMP for PID control or MPCTEMP for Predictive Model.
 // temperature control. Disable both for bang-bang heating.
